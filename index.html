@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwesome============================-->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- FontAwesome============================-->
+    <!-- TypedJs================================-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- TypedJs================================-->
+    <!-- Css====================================-->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/flexbox-grid.css">
+    <link rel="stylesheet" href="css/global.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Css====================================-->
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="aside">
+        <button class="aside-close" type="button"><i class='bx bx-left-arrow-alt'></i></button>
+        <button class="aside-open" type="button"><i class='bx bx-right-arrow-alt'></i></button>
+        <button class="aside-mobile-open"><i class='bx bx-right-arrow-alt'></i></button>
+        <button class="aside-mobile-close"><i class='bx bx-left-arrow-alt'></i></button>
+        <a class="logo" href="index.html">
+            <h1 class="logo__text">Ravshan</h1>
+            <p class="logo__name">Ravshan Rakhmonberdiyev</p>
+        </a>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#home">home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#about">about</a></li>
+                <li class="nav__item"><a class="nav__link" href="#portfolio">portfolio</a></li>
+                <li class="nav__item"><a class="nav__link" href="#contact">contact</a></li>
+            </ul>
+            <div class="socials">
+                <p class="socials__name">Follow me</p>
+                <ul class="socials__list">
+                    <li class="socials__item"><a class="socials__link" href="https://facebook.com"><i
+                                class='bx bxl-facebook'></i></a></li>
+                    <li class="socials__item"><a class="socials__link" href="https://twitter.com"><i
+                                class='bx bxl-twitter'></i></a></li>
+                    <li class="socials__item"><a class="socials__link" href="https://linkedin.com"><i
+                                class='bx bxl-linkedin'></i></a></li>
+                    <li class="socials__item"><a class="socials__link" href="https://t.me/Raxmonberdiyev_RR"><i
+                                class='bx bxl-telegram'></i></a></li>
+                    <li class="socials__item"><a class="socials__link" href="https://instagram.com/ravshan_0900"><i
+                                class='bx bxl-instagram'></i></a></li>
+                </ul>
+                <p class="socials__subtitle">Rakhmonberdiyev_RR</p>
+            </div>
+        </nav>
+    </header>
+    <main class="main" id="home">
+        <!-- Banner========================-->
+        <section class="banner">
+            <p class="banner__pretitle">Hello</p>
+            <h2 class="banner__title">i'm Ravshan Rakhmonberdiyev</h2>
+            <div class="banner-info__wrapper">
+                <p class="banner-info__text">A Student</p><span class="animate"></span>
+            </div>
+            <a class="banner__btn btn" href="#contact">hire me</a>
+            <a class="banner__arrow-down" href="#about"><span class="first-arrow"></span><span
+                    class="second-arrow"></span></a>
+        </section>
+        <!-- Banner========================-->
+        <!-- About=========================-->
+        <section class="about pb-pt" id="about">
+            <div class="container">
+                <div class="about__inner row middle-xs between-xs">
+                    <div class="about__content col-md-7 col-sm-7">
+                        <h3 class="about__title title">about</h3>
+                        <div class="about-info__wrapper">
+                            <p class="about-info__text">A Student</p><span class="about-animate"></span>
+                        </div>
+                        <p class="about__me text">Hi! My name is Ravshan Rakhmonberdiyev I am a junior Frontend
+                            Developer and Layout Developer, Just now, i'm learning in Najot Ta'lim, in learning center.
+                            These days, I'm learning HTML5 and CSS3, So far i make over 20 landing pages, Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Praesentium animi dolores</p>
+                        <div class="about__buttons">
+                            <a class="about__btn btn" href="#">hire me</a>
+                            <a class="about__btn secondary-btn" href="#" download>download CV</a>
+                        </div>
+                        <div class="about__contact-buttons contact">
+                            <a class="contact__btn col-md-6" href="tel:+998901235309">
+                                <i class='bx bxs-phone'></i>
+                                <p class="contact__title">Phone</p>
+                                <p class="contact__phone text">+998901235309</p>
+                            </a>
+                            <a class="contact__btn col-md-6" href="mailto:pottergarry35@gmail.com" target="_blank">
+                                <i class='bx bxs-envelope'></i>
+                                <p class="contact__title">Email</p>
+                                <p class="contact__email text">pottergarry35@gmail.com</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about__banner col-md-5 col-sm-5">
+                        <img class="about__banne" src="media/img/about-me/i-am-programmer.png" alt="Avatar">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About=========================-->
+
+        <!-- Portfolio=====================-->
+        <section class="portfolio pb-pt" id="portfolio">
+            <div class="container">
+                <h3 class="portfolio__title title">Portfolio</h3>
+                <div class="portfolio__products products row">
+                    <div class="products__item webDesign col-md-4">
+                        <div class="product-item__inner">
+                            <a class="products-item__link" href="https://clerksy22.netlify.app/" target="_blank">
+                                <img src="media/img/portfolio/project-1.png" alt="Portfolio image">
+                                <div class="product-item__overlay overlay">
+                                    <p class="overlay__name">Html Css/ Layouting</p>
+                                    <p class="overlay__desc">Web-Devolopment</p>
+                                    <span><svg class="svg-inline--fa fa-eye fa-w-18" aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="eye" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z">
+                                            </path>
+                                        </svg></span>
+                                </div>
+                                <div class="product-item__view">
+                                    <span><svg class="svg-inline--fa fa-eye fa-w-18" aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="eye" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z">
+                                            </path>
+                                        </svg></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="products__item graphicDesign col-md-4">
+                        <div class="product-item__inner">
+                            <a class="products-item__link" href="https://my-team22.netlify.app/"
+                                target="_blank">
+                                <img src="media/img/portfolio/project-3.png" alt="Portfolio image">
+                                <div class="product-item__overlay overlay">
+                                    <p class="overlay__name">Html Css/ Layouting</p>
+                                    <p class="overlay__desc">Web-Devolopment</p>
+                                    <span><svg class="svg-inline--fa fa-eye fa-w-18" aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="eye" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z">
+                                            </path>
+                                        </svg></span>
+                                </div>
+                                <div class="product-item__view">
+                                    <span><svg class="svg-inline--fa fa-eye fa-w-18" aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="eye" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z">
+                                            </path>
+                                        </svg></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="products__item webDesign col-md-4">
+                        <div class="product-item__inner">
+                            <a class="products-item__link" href="https://product22.netlify.app/"
+                                target="_blank">
+                                <img src="media/img/portfolio/project-4.png" alt="Portfolio image">
+                                <div class="product-item__overlay overlay">
+                                    <p class="overlay__name">Html Css/ Layouting</p>
+                                    <p class="overlay__desc">Web-Devolopment</p>
+                                    <span><svg class="svg-inline--fa fa-eye fa-w-18" aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="eye" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z">
+                                            </path>
+                                        </svg></span>
+                                </div>
+                                <div class="product-item__view">
+                                    <span><svg class="svg-inline--fa fa-eye fa-w-18" aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="eye" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z">
+                                            </path>
+                                        </svg></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio=====================-->
+
+        <!-- Contact=======================-->
+        <section class="site-contact pb-pt" id="contact">
+            <div class="container">
+                <h3 class="site-contact__title title">contact</h3>
+                <div class="site-contact__inner row between-xs">
+                    <div class="site-contact__touch touch col-md-6">
+                        <h4 class="touch__title">Get in Touch</h4>
+                        <p class="touch__desc text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, rem!
+                        </p>
+                        <ul class="touch__list">
+                            <li class="touch__item"><span><svg class="svg-inline--fa fa-phone-alt fa-w-16"
+                                        aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone-alt"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                        data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z">
+                                        </path>
+                                    </svg></span><a class="touch__link" href="tel:+998901235309"
+                                    target="_blank">998901235309</a></li>
+                            <li class="touch__item"><span><svg class="svg-inline--fa fa-envelope fa-w-16"
+                                        aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                        data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                                        </path>
+                                    </svg></span><a class="touch__link" href="mailto:pottergarry35@gmail.com"
+                                    target="_blank">pottergarry35@gmail.com</a></li>
+                            <li class="touch__item"><span><svg class="svg-inline--fa fa-globe fa-w-16"
+                                        aria-hidden="true" focusable="false" data-prefix="fas" data-icon="globe"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"
+                                        data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z">
+                                        </path>
+                                    </svg></span><a class="touch__link" href="https://t.me/Raxmonberdiyev_RR"
+                                    target="_blank">Rakhmonberdiyev_RR.com</a></li>
+                            <li class="touch__item"><span><svg class="svg-inline--fa fa-street-view fa-w-16"
+                                        aria-hidden="true" focusable="false" data-prefix="fas" data-icon="street-view"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                        data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M367.9 329.76c-4.62 5.3-9.78 10.1-15.9 13.65v22.94c66.52 9.34 112 28.05 112 49.65 0 30.93-93.12 56-208 56S48 446.93 48 416c0-21.6 45.48-40.3 112-49.65v-22.94c-6.12-3.55-11.28-8.35-15.9-13.65C58.87 345.34 0 378.05 0 416c0 53.02 114.62 96 256 96s256-42.98 256-96c0-37.95-58.87-70.66-144.1-86.24zM256 128c35.35 0 64-28.65 64-64S291.35 0 256 0s-64 28.65-64 64 28.65 64 64 64zm-64 192v96c0 17.67 14.33 32 32 32h64c17.67 0 32-14.33 32-32v-96c17.67 0 32-14.33 32-32v-96c0-26.51-21.49-48-48-48h-11.8c-11.07 5.03-23.26 8-36.2 8s-25.13-2.97-36.2-8H208c-26.51 0-48 21.49-48 48v96c0 17.67 14.33 32 32 32z">
+                                        </path>
+                                    </svg></span><a class="touch__link" href="https://goo.gl/maps/u6MLYAKpfexZRdV28"
+                                    target="_blank">Uzbekistan, Toshkent</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact__form form col-md-6">
+                        <form class="form" action="https://echo.htmlacademy.ru/">
+                            <label>
+                                <input class="form__input" type="text" name="user-text" id="user-text"
+                                    placeholder="Name" required>
+                            </label>
+                            <label>
+                                <input class="form__input" type="email" name="user-email" id="user-email"
+                                    placeholder="Email" required>
+                            </label>
+                            <label>
+                                <textarea class="form__textarea" name="user-text" id="user-text" placeholder="Message"
+                                    required></textarea>
+                            </label>
+                            <button class="form__btn btn" type="submit">send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact=======================-->
+        <!-- Footer========================-->
+        <section class="footer pb-pt">
+            <div class="container">
+                <div class="footer__inner row middle-xs">
+                    <a class="footer__logo logo col-md-6" href="index.html">
+                        <h1 class="logo__text">Ravshan</h1>
+                        <p class="logo__name">Ravshan Rakhmonberdiyev</p>
+                    </a>
+                    <ul class="footer__socials socials__list col-md-6">
+                        <li class="socials__item"><a class="socials__link" href="https://t.me/Raxmonberdiyev_RR"><i
+                                    class='bx bxl-facebook'></i></a></li>
+                        <li class="socials__item"><a class="socials__link" href="https://t.me/Raxmonberdiyev_RR"><i
+                                    class='bx bxl-twitter'></i></a></li>
+                        <li class="socials__item"><a class="socials__link" href="https://t.me/Raxmonberdiyev_RR"><i
+                                    class='bx bxl-linkedin'></i></a></li>
+                        <li class="socials__item"><a class="socials__link" href="https://t.me/Raxmonberdiyev_RR"><i
+                                    class='bx bxl-telegram'></i></a></li>
+                        <li class="socials__item"><a class="socials__link" href="https://instagram.com/ravshan_0900"><i
+                                    class='bx bxl-instagram'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Footer========================-->
+    </main>
+    <div id="cursor"></div>
+    <a class="btn-to-top" href="#html"><svg class="svg-inline--fa fa-chevron-up fa-w-14" aria-hidden="true"
+            focusable="false" data-prefix="fa" data-icon="chevron-up" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512" data-fa-i2svg="">
+            <path fill="currentColor"
+                d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z">
+            </path>
+        </svg></a>
+    <!-- Js=====================================-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script>     -->
+    <!-- Js=====================================-->
+
+</body>
+
+</html>

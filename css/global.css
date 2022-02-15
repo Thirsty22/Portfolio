@@ -1,0 +1,236 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Georama:wght@500;700&family=Josefin+Sans:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap);
+@import url(../css/style.css);
+
+:root {
+    --color-ffffff: #fff;
+    --color-0c0c0c: #0c0c0c;
+    --color-000: #000;
+    --color-fa163f: #fa163f;
+    --color-bbb: #bbb
+}
+
+::-webkit-scrollbar {
+    background: 0 0;
+    border: 0 none #fff;
+    border-radius: 50px;
+    width: 5px;
+    height: 7px
+}
+
+::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border: 0 none #fff;
+    border-radius: 0
+}
+
+html {
+    cursor: none;
+    box-sizing: border-box
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-000);
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    overflow-x: hidden;
+    font-size: 15px;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: var(--color-ffffff)
+}
+
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+    color: #fff
+}
+
+a {
+    text-decoration: none;
+    display: inline-block
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.btn {
+    position: relative;
+    z-index: 10;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 13px 15px;
+    border: 2px solid var(--color-fa163f);
+    color: #fff;
+    background: var(--color-fa163f);
+    text-transform: capitalize;
+    transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+    -o-transition: all .4s linear
+}
+
+.btn:hover {
+    background-color: transparent
+}
+
+.secondary-btn {
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 13px 15px;
+    border: 2px solid var(--color-fa163f);
+    color: #fff;
+    text-transform: capitalize;
+    transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+    -o-transition: all .4s linear
+}
+
+.secondary-btn:hover {
+    background-color: var(--color-fa163f)
+}
+
+#cursor::after {
+    content: '';
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    z-index: 99998;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    border: 2px solid var(--color-ffffff);
+    box-shadow: 0 0 22px rgba(255, 255, 255, .6);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: scale(1) translateX(-50%) translateY(-50%);
+    -webkit-transform: scale(1) translateX(-50%) translateY(-50%);
+    -moz-transform: scale(1) translateX(-50%) translateY(-50%);
+    -ms-transform: scale(1) translateX(-50%) translateY(-50%);
+    -o-transform: scale(1) translateX(-50%) translateY(-50%)
+}
+
+#cursor {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 6px;
+    width: 6px;
+    z-index: 99999;
+    pointer-events: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%
+}
+
+.title {
+    font-size: 32px;
+    letter-spacing: 3px;
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
+    line-height: 1.75rem;
+    color: var(--color-ffffff);
+    text-transform: capitalize;
+    position: relative;
+    padding-left: 20px
+}
+
+.title::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 32px;
+    background: #fa163f
+}
+
+.text {
+    font-size: 15px;
+    color: var(--color-bbb);
+    line-height: 1.75rem;
+    font-weight: 400
+}
+
+.pb-pt {
+    padding-top: 120px;
+    padding-bottom: 120px
+}
+
+.btn-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--color-fa163f);
+    background-color: var(--color-0c0c0c);
+    color: var(--color-ffffff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    opacity: 0;
+    visibility: hidden
+}
+
+.btn-to-top .fa-chevron-up {
+    width: 14px;
+    height: 15px
+}
+
+.btn-to-top--active {
+    opacity: 1;
+    visibility: visible
+}
+
+.btn-to-top:hover {
+    background-color: var(--color-fa163f)
+}
